@@ -1,0 +1,2 @@
+Ruby has a very strange format, so i tought i should talk about it.
+It is very different from python's or js's format, but i still really like it.
