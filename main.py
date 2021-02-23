@@ -11,12 +11,19 @@ def start():
     if catagor_laung == "py":
         print("Welecome to the python defenition directory!")
         num_check1 = input("Which definition do you want?")
+        print("1. If Loops")
+        print("2. While Loops")
+        print("3. Classes")
         if num_check1 == 1:
             with open('data/python/ifloopdef.text') as example_file:
                 example_text = example_file.read()
                 print(example_text)
         if num_check1 == 2:
             with open('data/python/whileloopdef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)
+        if num_check1 == 3:
+            with open('data/python/classdef.txt') as example_file:
                 example_text = example_file.read()
                 print(example_text)
     if catagor_laung == "js":
@@ -30,7 +37,13 @@ def start():
                 print(example_text)
     if catagor_laung == "ts":
         print("Welecome to the typecript defenition directory!")
-
+    if catagor_laung == "other":
+        print("Welecome to the other defenition directory!")
+        num_check3 = input("What defenition do you want?")
+        if num_check3 == 1:
+            with open('data/other/rubyvspython.text') as example_file:
+                example_text = example_file.read()
+                print(example_text)
 
 
 start()
