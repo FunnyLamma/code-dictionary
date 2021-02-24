@@ -14,6 +14,7 @@ def start():
         print("1. If Loops")
         print("2. While Loops")
         print("3. Classes")
+        print("4. Booleans")
         if num_check1 == 1:
             with open('data/python/ifloopdef.text') as example_file:
                 example_text = example_file.read()
@@ -24,6 +25,10 @@ def start():
                 print(example_text)
         if num_check1 == 3:
             with open('data/python/classdef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)
+        if num_check1 == 4:
+            with open('data/python/booleandef.txt') as example_file:
                 example_text = example_file.read()
                 print(example_text)
     if catagor_laung == "js":
