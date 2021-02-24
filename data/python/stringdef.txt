@@ -1,0 +1,1 @@
+A string is a seires of words that can be printed directly to the console or be set as a variable.

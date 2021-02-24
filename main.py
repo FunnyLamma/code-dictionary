@@ -15,6 +15,8 @@ def start():
         print("2. While Loops")
         print("3. Classes")
         print("4. Booleans")
+        print("5. Strings")
+        print("6. The Time Module")
         if num_check1 == 1:
             with open('data/python/ifloopdef.text') as example_file:
                 example_text = example_file.read()
@@ -31,6 +33,14 @@ def start():
             with open('data/python/booleandef.txt') as example_file:
                 example_text = example_file.read()
                 print(example_text)
+        if num_check1 == 5:
+            with open('data/python/stringdef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)
+        if num_check1 == 6:
+            with open('data/python/timedef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)            
     if catagor_laung == "js":
         print("Welecome to the javascript defenition directory!")
     if catagor_laung == "rb":
