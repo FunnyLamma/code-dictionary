@@ -1,1 +1,3 @@
 If loops are a huge part of python, and are incredbly usefull.
+They bassicly say if somthing is true, then do this.
+They can be modified with things like else commands.

@@ -20,6 +20,8 @@ def start():
         print("5. Strings")
         print("6. The Time Module")
         print("7. The OS module")
+        print("8. The JSON module")
+        print("9. Modules")
         print("10. Next Page")
         if num_check1 == 1:
             with open('data/python/ifloopdef.text') as example_file:
@@ -47,6 +49,14 @@ def start():
                 print(example_text)
         if num_check1 == 7:
             with open('data/python/osmoddef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)
+        if num_check1 == 8:
+            with open('data/python/jsonmoddef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)
+        if num_check1 == 9:
+            with open('data/python/moduledef.txt') as example_file:
                 example_text = example_file.read()
                 print(example_text)
         if num_check1 == 10:
