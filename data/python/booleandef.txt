@@ -1,1 +1,1 @@
-A boolean is a true or false variable.
+A boolean is a true or false variable, and they are in most simple and advanced python programs.

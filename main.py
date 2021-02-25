@@ -18,6 +18,7 @@ def start():
         print("4. Booleans")
         print("5. Strings")
         print("6. The Time Module")
+        print("7. The OS module")
         print("10. Next Page")
         if num_check1 == 1:
             with open('data/python/ifloopdef.text') as example_file:
@@ -40,13 +41,18 @@ def start():
                 example_text = example_file.read()
                 print(example_text)
         if num_check1 == 6:
-            with open('data/python/timedef.txt') as example_file:
+            with open('data/python/timemoddef.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)
+        if num_check1 == 7:
+            with open('data/python/osmoddef.txt') as example_file:
                 example_text = example_file.read()
                 print(example_text)
         if num_check1 == 10:
             def pypage2():
                 num_check4 = input("Which definition do you want?")
                 print("Page 2")
+                print("10. Next Page")
             pypage2()
     if catagor_laung == "js":
         print("Welecome to the javascript defenition directory!")
