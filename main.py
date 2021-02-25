@@ -2,11 +2,12 @@ import json
 import time
 from datetime import datetime
 
-current_time = datetime.now()
 
 def start():
+    
+    current_time = datetime.now()
     print("Welecome")
-    print(current_time)
+    print("It is currently", current_time)
     catagor_laung = input("What catagory do you want?")
     if catagor_laung == "py":
         print("Welecome to the python defenition directory!")
