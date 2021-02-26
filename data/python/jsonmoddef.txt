@@ -2,4 +2,5 @@ json commands are very very useful, I use them a lot.
 Especially the .read command.
 I used it a ton in this program.
 The first use that I will go over it the .read commmand.
-Say you have a .txt file that you want to print with python
+Say you have a .txt file that you want to print with python.
+Let's say it is called example.txt.
