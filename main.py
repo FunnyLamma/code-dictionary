@@ -94,6 +94,13 @@ def start():
                 
     if catagor_laung == "js":
         print("Welecome to the javascript defenition directory!")
+        print("Page 1")
+        print("1. Node.js")
+        num_check5 = input("Which definition do you want?")
+        if num_check5 == 1:
+            with open('data/javascript/nodejs.txt') as example_file:
+                example_text = example_file.read()
+                print(example_text)                 
     if catagor_laung == "rb":
         print("Welecome to the ruby defenitiom directory!")
         print("Page 1")
@@ -110,6 +117,7 @@ def start():
         print("Page 1")
         print("1. Ruby vs Python")
         print("2. Modules")
+        print("3. Git")
         num_check3 = input("What defenition do you want?")
         if num_check3 == 1:
             with open('data/other/rubyvspython.text') as example_file:
@@ -118,7 +126,11 @@ def start():
         if num_check3 == 2:
             with open('data/other/modules.text') as example_file:
                 example_text = example_file.read()
-                print(example_text)            
+                print(example_text)
+        if num_check3 == 3:
+            with open('data/other/git.text') as example_file:
+                example_text = example_file.read()
+                print(example_text)             
     if catagor_laung == "qu":
         print("Welecome to the questions directory.")
 start()
