@@ -118,6 +118,7 @@ def start():
         print("1. Ruby vs Python")
         print("2. Modules")
         print("3. Git")
+        print("4. Electron")
         num_check3 = input("What defenition do you want?")
         if num_check3 == 1:
             with open('data/other/rubyvspython.text') as example_file:
@@ -130,7 +131,11 @@ def start():
         if num_check3 == 3:
             with open('data/other/git.text') as example_file:
                 example_text = example_file.read()
-                print(example_text)             
+                print(example_text)
+        if num_check3 == 4:
+            with open('data/other/electron.text') as example_file:
+                example_text = example_file.read()
+                print(example_text)                         
     if catagor_laung == "qu":
         print("Welecome to the questions directory.")
 start()
