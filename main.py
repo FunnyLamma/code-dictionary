@@ -68,12 +68,17 @@ def start():
             def pypage2():
                 print("Page 2")
                 print("1. Format")
+                print("2. With Statement")
                 print("10. Next Page")
                 num_check4 = input("Which definition do you want?")
                 if num_check4 == 1:
                     with open('data/python/pyformat.txt') as example_file:
                         example_text = example_file.read()
                         print(example_text)
+                if num_check4 == 2:
+                    with open('data/python/withstate.txt') as example_file:
+                        example_text = example_file.read()
+                        print(example_text)                    
             pypage2()
             
                 

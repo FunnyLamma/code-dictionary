@@ -4,3 +4,5 @@ I used it a ton in this program.
 The first use that I will go over it the .read commmand.
 Say you have a .txt file that you want to print with python.
 Let's say it is called example.txt.
+The first thing you want to do is use the with command to save the file as a variable.
+Example: with open example.txt as example_file.
