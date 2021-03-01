@@ -14,6 +14,7 @@ def start():
     print("Javascript (js)")
     print("Ruby (rb)")
     print("Typescript (ts)")
+    print("Questions (qu)")
     if catagor_laung == "py":
         print("Welecome to the python defenition directory!")
         print("Page 1")
@@ -106,11 +107,18 @@ def start():
         print("Welecome to the typecript defenition directory!")
     if catagor_laung == "ot":
         print("Welecome to the other defenition directory!")
+        print("Page 1")
+        print("1. Ruby vs Python")
+        print("2. Modules")
         num_check3 = input("What defenition do you want?")
         if num_check3 == 1:
             with open('data/other/rubyvspython.text') as example_file:
                 example_text = example_file.read()
                 print(example_text)
+        if num_check3 == 2:
+            with open('data/other/modules.text') as example_file:
+                example_text = example_file.read()
+                print(example_text)            
     if catagor_laung == "qu":
         print("Welecome to the questions directory.")
 start()
