@@ -1,0 +1,1 @@
+Discord bots are tricky to make, but i think it is probably easist to make one in python.

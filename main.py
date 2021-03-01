@@ -69,6 +69,7 @@ def start():
                 print("Page 2")
                 print("1. Format")
                 print("2. With Statement")
+                print("3. The Datetime Module")
                 print("10. Next Page")
                 num_check4 = input("Which definition do you want?")
                 if num_check4 == 1:
@@ -78,7 +79,15 @@ def start():
                 if num_check4 == 2:
                     with open('data/python/withstate.txt') as example_file:
                         example_text = example_file.read()
-                        print(example_text)                    
+                        print(example_text)
+                if num_check4 == 3:
+                    with open('data/python/datetimemod.txt') as example_file:
+                        example_text = example_file.read()
+                        print(example_text)                  
+                if num_check4 == 4:
+                    with open('data/python/discordbot.txt') as example_file:
+                        example_text = example_file.read()
+                        print(example_text)  
             pypage2()
             
                 

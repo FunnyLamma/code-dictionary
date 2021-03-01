@@ -1,1 +1,2 @@
 I use classes quite often in python, but they are decently advanced.
+They are also pretty tricky to explain, but i will try.
